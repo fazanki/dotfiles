@@ -1,0 +1,11 @@
+#export NODE_HOME=/usr/share/node
+#export NODE_JS=$NODE_HOME/js
+#export NODE_REPO=$NODE_HOME/repo
+#:export NODE_PATH=/usr/local/lib/node_modules
+
+export PATH=/usr/local/bin:/usr/bin:$NODE_PATH/bin:$PATH
+
+#export PATH=/usr/local/bin:$PATH
+export PATH="~/bin:~/.bin:/usr/local/homebrew/bin:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/usr/local/git/bin:$PATH"
+export MANPATH="/usr/local/man:/usr/local/mysql/man:/usr/local/git/man:$MANPATH"
+
